@@ -1,0 +1,164 @@
+
+body{
+    
+    
+    margin:0;
+   
+    padding: 0;
+    
+    font-family: sans-serif;
+
+    
+    
+}
+
+
+.HeaderBack{
+    position: fixed;
+    height: 130px;
+    
+     top:0;
+     width:100%;
+    
+    z-index: 1;
+
+    background-color: white;
+
+       
+}
+.logo{
+    
+    
+  width: 5px;
+  height: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+    
+  
+}
+.header
+{
+    position: fixed;
+background-color: pink;
+    height: 100px;
+    margin-top: 10px;
+    
+    width:70%;
+    margin-left:230px;
+    margin-right: 20px;
+   
+
+    background-color: #CBE1F1;
+    border-radius: 10px;
+    z-index: 2;
+   
+}
+
+
+
+.header ul
+{
+    
+    
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 5px 0;
+    
+   background: #CBE1F1;
+   display: flex;
+   border-radius: 10px;
+   border-shadow:0 10px 30px rgba(0,0,0,.3);
+   z-index: 2;
+}
+
+ul li
+{
+    
+    
+    
+    list-style: none;
+    text-align: center;
+    display: block;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    
+}
+ul li:last-child
+{
+    
+    
+       border-right: none;
+    
+    
+    
+}
+ul li a 
+{
+    
+    
+    
+    text-decoration: none;
+    padding: 0 50px;
+    display: block;
+    
+}
+
+ul li a .icon
+{
+    
+    
+    width: 40px;
+    height: 35px;
+    text-align: center;
+  
+    margin: 0 auto 10px;
+    overflow:hidden;
+    
+        
+        
+}
+
+ul li a .icon .fa
+{
+    
+    
+    
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 34px;
+    transition: 0.5s;
+    color: #000;
+}
+ul li a .icon .fa:last-child
+{
+    
+    color:darkred;
+    
+    
+}
+
+ul li a:hover .icon .fa
+{
+    
+    transform: translateY(-100%);
+    
+    
+}
+
+.upperMid
+{
+    
+    
+    background-color: red;
+  
+    
+}
+.name
+{
+     text-color: black;
+    
+    
+}

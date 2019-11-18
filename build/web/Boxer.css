@@ -1,0 +1,33 @@
+.Boxer
+{
+    position: absolute;
+    left: 50%;
+    top:70%;
+    transform: translate(-50%,-50%);
+    
+    width: calc(1536px/6);
+    height: 256px;
+    background: url(sprite.png);
+    animation: animate12 1s steps(6) infinite;
+   
+    
+}
+@keyframes animate12
+{
+    
+    from
+    {
+        
+        background-position:0;
+        
+    }
+        
+    to
+    {
+        
+        background-position:1536px;
+        
+    }
+    
+    
+}

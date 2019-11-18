@@ -1,0 +1,187 @@
+.Footer
+
+{
+    margin-top: 50px;
+    height: 490px;
+  
+    
+    width:100%;
+    position: relative;
+    overflow: hidden;
+   
+    background-color: blueviolet;
+   
+    
+}
+
+.slider
+{
+    position:relative;
+    width: 500%;
+    animation: animate1 10s linear infinite;
+}
+
+.slide
+{
+    
+    
+    
+    position: relative;
+    width: 20%;
+    height: 100vh;
+    float: left;
+    
+}
+h1
+{
+    
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:30%;
+    font-family: sans-serif;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 2em;
+    width:100%;
+    
+     background: rgba(0,0,0,.6);
+     color: #fff;
+     
+    
+    
+    
+}
+.slide
+{
+    
+    background-size: cover;
+    
+    
+}
+
+.slide:nth-child(1)
+{
+    
+    background: url(Yoga.jpg);
+ 
+    
+}
+
+.slide:nth-child(2)
+{
+    
+    background: url(Aerobics.jpg);
+ 
+    
+}
+
+.slide:nth-child(3)
+{
+    
+    background: url(Motivation.jpg);
+ 
+    
+}
+
+.slide:nth-child(4)
+{
+    
+    background: url(slide4.jpg);
+ 
+    
+}
+
+.slide:nth-child(5)
+{
+    
+    background: url(slide5.jpg);
+ 
+    
+}
+
+@keyframes animate1
+{
+    
+    
+    
+    0%
+    {
+        
+        left:0;
+        
+        
+    }
+       
+    16%
+    {
+        
+        left:0;
+        
+        
+    }
+       
+    20%
+    {
+        
+        left:-100%;
+        
+        
+    }
+       
+    36%
+    {
+        
+        left:-100%;
+        
+        
+    }
+    
+    40%
+    {
+        
+        left:-200%;
+        
+        
+    }
+      56%
+    {
+        
+        left:-200%;
+        
+        
+    }
+    
+       60%
+    {
+        
+        left:-300%;
+        
+        
+    }
+    76%
+    {
+        left:-300%;
+        
+        
+    }
+    80%
+    {
+        
+        left:-400%;
+        
+        
+    }
+    96%
+    {
+        
+        
+        left:-400%
+    }
+    100%
+    {
+        
+        left:0;
+    }
+    
+}
